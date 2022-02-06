@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
           <a
             className="inline-block p-[2px] rounded bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 hover:text-white active:text-opacity-75 focus:outline-none focus:ring cursor-pointer mt-5"
-            onClick={() => disconnectWallet()}
+            onClick={disconnectWallet}
           >
             <span className="block px-8 py-3 text-sm font-medium bg-white rounded-sm hover:bg-transparent">
               Disconnect Wallet
